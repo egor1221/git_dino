@@ -1,21 +1,132 @@
-*{
-    margin: 0;
-}
-
 body{
-    display: flex;
+    background-color: blue;
 }
 
-div{
-    min-width: 800px;
-    min-height: 400px;
+p{
+    color: white;
+}
+
+.game-cont{
+    width: 800px;
+    height: 400px;
     background-color: white ;
+    margin: auto;
+    border-style: dashed;
+    border-bottom: 1px solid black;
+    display: flex;
+    
+}
+
+
+#pers{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    background-image: url(./img/gg.png);
+    background-size: 60px 60px;
+    top: 335px;
+    left: 15px;
+}
+
+#goat{
+    width: 50px;
+    height: 60px;
+    position: relative;
+    background-image: url(./img/goat.png);
+    background-size: 50px 60px;
+    top: 353px;
+    left: 680px;
+    animation: goat 1s infinite linear;
+
+}
+
+@keyframes goat {
+    0%{
+        left: 680px;
+    }
+    
+    100% {
+        left: -20px;
+    }
+}
+
+.jump{
+
+    animation: jump 1s linear;
+
+}
+
+@keyframes jump {
+    0%{
+        top: 335px;
+    }
+    
+    30%{
+        top: 300px;
+    }
+    50%{
+        top: 250px;
+    }
+    80%{
+        top: 300px;
+    }
+
+    100% {
+        top: 335px;
+    }
+}
+
+
+.title{
     margin: 0 auto;
+    text-align: center;
+    font-weight: 800;
 }
 
-hr{
-    margin-top: 300px;
+.title_1{
+    color: brown;
+}
+
+
+.gameboy{
+    width: 800px;
+    height: 400px;
+    background-color: rgb(73, 221, 135) ;
+    margin: auto;
+    /* border-style: dashed; */
+    /* border-bottom: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.btn-1{
+    width: 150px;
+    height: 100px;
     background-color: black;
-    min-height: 5px;
+    border-radius: 50%;
+    position: relative;
+    top: 150px;
+    left: 30px;
 }
 
+
+.btn-2{
+    width: 150px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    top: 150px;
+}
+
+
+.btn-3{
+    width: 150px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    top: 150px;
+    right: 30px;
+}
