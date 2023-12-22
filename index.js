@@ -19,6 +19,6 @@ let isAlive = setInterval(() => {
     let goatLeft = parseInt(window.getComputedStyle(goat).getPropertyValue('left'))
 
     if(goatLeft<40 && goatLeft>0 && persTop>=325){
-        alert('ddddddddd')
+        
     }
 }, 10)
