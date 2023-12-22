@@ -97,7 +97,8 @@ p{
     /* border-bottom: 1px solid black; */
     display: flex;
     justify-content: space-between;
-    
+    border-style: dashed;
+    border-top-style:dashed;
 }
 
 .btn-1{
@@ -149,3 +150,14 @@ p{
 .proebal p{
     font-size: 72px
 }
+.btn-text{
+    margin-top: 40px;
+    text-align: center;
+    
+}
+
+.btn_text_silka{
+    color: whitesmoke;
+    text-decoration: none;
+}
+    
