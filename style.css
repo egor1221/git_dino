@@ -37,12 +37,13 @@ p{
     top: 353px;
     left: 680px;
     animation: goat 1.5s infinite linear;
+    animation-delay: 0.5s;
 
 }
 
  @keyframes goat {
     0%{
-        left: 680px;
+        left: 700px;
     }
     
     100% {
@@ -53,22 +54,33 @@ p{
 
 .jump{
 
-    animation: jump 0.4s linear; 
+    animation: jump 0.4 s linear; 
 
 }
 
 @keyframes jump {
+    
     0%{
         top: 335px;
     }
     
     30%{
-        top: 200px;
+        top: 230px;
         
     }
 
     70%{
-        top: 200px;
+        top: 260px;
+        
+    }
+
+    80%{
+        top: 290px;
+        
+    }
+
+    90%{
+        top: 320px;
         
     }
 
@@ -76,7 +88,7 @@ p{
         top: 335px;
         
     }
-}
+} 
 
 
 .title{
@@ -137,6 +149,9 @@ p{
 .proebal{
     width: 50%;
     height: 44%;
+    width: 800px;
+    height: 400px;
+    max-height: 100%;
     background-color: red;
     position: fixed;
     display: none;
@@ -144,6 +159,7 @@ p{
     left: 0;
     right: 0;
     top: 355px;
+    top: 300px;
     z-index: 9999;
     text-align: center;
     margin: auto;
