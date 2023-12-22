@@ -53,7 +53,7 @@ p{
 
 .jump{
 
-    animation: jump 0.4s linear; */
+    animation: jump 0.4s linear; 
 
 }
 
@@ -162,4 +162,3 @@ p{
     color: whitesmoke;
     text-decoration: none;
 }
-    
