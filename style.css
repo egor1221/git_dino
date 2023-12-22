@@ -130,3 +130,22 @@ p{
     top: 150px;
     right: 30px;
 }
+
+.proebal{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    position: fixed;
+    display: none;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+    text-align: center;
+    margin: auto;
+}
+
+.proebal p{
+    font-size: 72px
+}

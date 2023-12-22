@@ -19,6 +19,8 @@ let isAlive = setInterval(() => {
     let goatLeft = parseInt(window.getComputedStyle(goat).getPropertyValue('left'))
 
     if(goatLeft<40 && goatLeft>0 && persTop>=325){
-        alert('ddddddddd')
+        document.getElementsByClassName('proebal')[0].style.display = 'block'
     }
 }, 10)
+
+document.getElementById('button').addEventListener('click', () => document.getElementsByClassName('proebal')[0].style.display = 'none')
