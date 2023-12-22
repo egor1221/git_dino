@@ -1,8 +1,10 @@
 let pers = document.getElementById('pers')
 let goat = document.getElementById('goat')
+let count = 0
 
 document.addEventListener('keydown', (event) => {
     jump()
+    count++
 })
 
 function jump(){
@@ -12,6 +14,7 @@ function jump(){
     setTimeout(() => {
         pers.classList.remove('jump')
     }, 300)
+    document.getElementById('count').innerHTML = count
 }
 
 let isAlive = setInterval(() => {
@@ -20,7 +23,7 @@ let isAlive = setInterval(() => {
 
     if(goatLeft<40 && goatLeft>0 && persTop>=325){
         document.getElementsByClassName('proebal')[0].style.display = 'block'
-        
+        count = 0
     }
 }, 10)
 
