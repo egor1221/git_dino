@@ -52,7 +52,7 @@ p{
 
 .jump{
 
-    animation: jump 1s linear;
+    animation: jump 0.5s linear;
 
 }
 
@@ -62,13 +62,13 @@ p{
     }
     
     30%{
-        top: 300px;
-    }
-    50%{
         top: 250px;
     }
+    50%{
+        top: 200px;
+    }
     80%{
-        top: 300px;
+        top: 250px;
     }
 
     100% {
