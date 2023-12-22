@@ -1,21 +1,22 @@
-*{
-    margin: 0;
-}
 
-body{
-    display: flex;
-}
 
-div{
-    min-width: 800px;
-    min-height: 400px;
+.game-cont{
+    width: 800px;
+    height: 400px;
     background-color: white ;
-    margin: 0 auto;
+    margin: auto;
+    border-bottom: 1px solid black;
 }
 
-hr{
-    margin-top: 300px;
-    background-color: black;
-    min-height: 5px;
-}
 
+
+
+
+#pers{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    background-image: url(./img/pngwing.com.png);
+    background-size: 30px 30px;
+    top: 365px;
+}
