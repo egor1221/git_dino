@@ -20,6 +20,7 @@ let isAlive = setInterval(() => {
 
     if(goatLeft<40 && goatLeft>0 && persTop>=325){
         document.getElementsByClassName('proebal')[0].style.display = 'block'
+        
     }
 }, 10)
 

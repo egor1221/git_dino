@@ -25,7 +25,7 @@ p{
     background-image: url(./img/gg.png);
     background-size: 60px 60px;
     top: 335px;
-    left: 15px;
+    left: 40px;
 }
 
 #goat{
@@ -36,23 +36,24 @@ p{
     background-size: 50px 60px;
     top: 353px;
     left: 680px;
-    animation: goat 1s infinite linear;
+    animation: goat 1.5s infinite linear;
 
 }
 
-@keyframes goat {
+ @keyframes goat {
     0%{
         left: 680px;
     }
     
     100% {
-        left: -20px;
+        left: -70px;
     }
+
 }
 
 .jump{
 
-    animation: jump 0.5s linear;
+    animation: jump 0.4s linear; */
 
 }
 
@@ -62,17 +63,18 @@ p{
     }
     
     30%{
-        top: 250px;
-    }
-    50%{
         top: 200px;
+        
     }
-    80%{
-        top: 250px;
+
+    70%{
+        top: 200px;
+        
     }
 
     100% {
         top: 335px;
+        
     }
 }
 
